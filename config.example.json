@@ -1,0 +1,66 @@
+{
+  "telegram": {
+    "enabled": false,
+    "botToken": "",
+    "chatId": "",
+    "proxy": "",
+    "reminderEveryMinutes": 3,
+    "maxReminders": 3
+  },
+  "awayAfterIdleSeconds": 90,
+  "minTaskSeconds": 10,
+  "forceVolumePercent": null,
+  "alarmMaxSeconds": 600,
+  "pollSeconds": 5,
+  "stall": {
+    "noActivitySeconds": 300,
+    "toolRunningSeconds": 1800
+  },
+  "kinds": {
+    "done": {
+      "enabled": true,
+      "title": "OpenCode finished",
+      "emoji": "\u2705",
+      "sound": "C:\\Windows\\Media\\Alarm03.wav",
+      "repeat": true,
+      "repeatEverySeconds": 10,
+      "telegram": true
+    },
+    "error": {
+      "enabled": true,
+      "title": "OpenCode ERROR",
+      "emoji": "\u274C",
+      "sound": "C:\\Windows\\Media\\Alarm10.wav",
+      "repeat": true,
+      "repeatEverySeconds": 10,
+      "telegram": true
+    },
+    "input": {
+      "enabled": true,
+      "title": "OpenCode needs you",
+      "emoji": "\uD83D\uDD14",
+      "sound": "C:\\Windows\\Media\\Alarm06.wav",
+      "repeat": true,
+      "repeatEverySeconds": 10,
+      "telegram": true
+    },
+    "stalled": {
+      "enabled": true,
+      "title": "OpenCode may be stuck",
+      "emoji": "\u23F3",
+      "sound": "C:\\Windows\\Media\\Alarm07.wav",
+      "repeat": true,
+      "repeatEverySeconds": 10,
+      "telegram": true
+    },
+    "crashed": {
+      "enabled": true,
+      "title": "OpenCode CRASHED",
+      "emoji": "\uD83D\uDCA5",
+      "sound": "C:\\Windows\\Media\\Alarm05.wav",
+      "repeat": true,
+      "repeatEverySeconds": 10,
+      "telegram": true
+    }
+  }
+}
